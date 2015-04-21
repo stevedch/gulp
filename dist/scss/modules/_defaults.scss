@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+* {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  /*background: radial-gradient(ellipse at center, $base 0, $darken 80%, $back 100%);*/
+  background: #fcf2a1;
+  color: #424242;
+  font-family: $_font_family;
+  transition: all .4s .3s ease-in;
+}
+
+body, html {
+  min-height: 100vh;
+  overflow: hidden;
+}

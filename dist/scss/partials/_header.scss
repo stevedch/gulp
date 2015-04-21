@@ -1,0 +1,19 @@
+/*header*/
+.logo {
+  margin: -58px 0 0 -100px;
+  @include position(absolute, 50% 0 0 50%);
+  img {
+
+  }
+}
+
+.-top-header {
+  background-color: $_base_two;
+  color: $base;
+  min-height: 30px;
+  font: $_font_family_two;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+/*header end*/
